@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/076dbb4efe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- Navigation Bar -->
+      <header class="site-header">
+        <div class="container nav-wrapper">
+            <!-- Brand Logo -->
+            <a href="#home" class="brand-logo">PORTFOLIO</a>
+
+            <!-- Nav Links -->
+            <nav>
+                <div class="nav-links">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#services">Services</a>
+                </div>
+            </nav>
+
+            <!-- Right side: Button & Mobile Toggle -->
+            <div class="nav-right">
+                <a href="#contact" class="btn">Let's Talk</a>
+                <button type="button" class="nav-toggle" aria-label="toggle navigation">
+                   <i class="fa-solid fa-bars"></i>  
+                </button>
+            </div>
+        </div>   
+      </header>
+
+      <!-- Hero Section -->
+       <section class="hero-section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="hero-greeting">Hello, welcome to my portfolio</p>
+            <h1 class="hero-headline">I'm <span class="text-blue">Sokheng</span></h1>
+            <h2 class="hero-role"> Web Developer</h2>
+            <p class="hero-bio"> I turn ideas into thought digital products -with clean code,
+              polished interfaces, and experiences people enjoy using.
+            </p>
+
+            <div class="hero-action">
+              <a href="#projects" class="btn-primary">Explore my work</a>
+              <a href="#contact" class="btn-secondary">Let's Talk</a>
+            </div>
+          </div>
+
+          <!-- hero image-->
+           <div class="hero-image">
+            <img src="assets/code.png" alt="icon instagram">
+           </div>
+        </div>
+       </section>
+
+       <!-- About me Section -->
+        <!-- About me Section -->
+       <section class="about-section" id="about">
+         <div class="container container-about-grid">
+           <div class="about-image-wrapper">
+             <img src="assets/Me.png" alt="Sokheng Profile">
+           </div>
+
+           <div class="about-content">
+             <h2 class="about-title">About Me</h2>
+             <p class="about-desc-1">
+               I'm Sokheng Khom, a web and software developer who enjoys turning
+               complex challenges into simple, useful digital experiences.
+             </p>
+             <p class="about-desc-2">
+               From the first sketch to the final line of code, I care about thoughtful design, clean structure, accessibility, and how a product feels in real life.
+             </p>
+             
+             <div class="about-highlights">
+               <div class="highlight-item">
+                 <span class="bullet-dot">•</span>
+                 <span>Thoughtful design</span>
+               </div>
+               <div class="highlight-item">
+                 <span class="bullet-dot">•</span>
+                 <span>Maintainable code</span>
+               </div>
+               <div class="highlight-item">
+                 <span class="bullet-dot">•</span>
+                 <span>Constant learning</span>
+               </div>
+               <div class="highlight-item">
+                 <span class="bullet-dot">•</span>
+                 <span>Real-world impact</span>
+               </div>
+             </div>
+
+             <div class="about-divider"></div>
+             <a href="#services" class="about-link">Learn More!</a>
+           </div>
+         </div>
+       </section>
+
+
+       <!-- skill and Tecnologies section -->
+    <section class="skill-section" id="skills">
+        <div class="container">
+            <h2 class="section-title">skills & technologies.</h2>
+            <p class="section-subtitle">
+              The tool i use to shape ideas into fast, responsive, and reliable digital experiences.
+            </p>
+            <!-- skill-grid-->
+            <div class="skills-grid">
+             <!-- frontend-->
+                <div class="skills-card light">
+                    <div class="still-icon-wrap">
+                        <i class="fa-brands fa-web-awesome"></i>
+                    </div>
+                    <h3 class="skill-title">FRONTEND</h3>
+                    <p>HTML, CSS, JavaScipt, React JS, Next js, Taiwind CSS</p>
+                </div>
+
+                <!-- Backend-->
+                 <div class="skill-card dark">
+                  <div class="skill-icon-wrap">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+                  <h3 class="skill-title">BACKEND</h3>
+                  <p>Node, Express, Typecript, MongoDB, MySQL, PostgreSQL</p>
+                 </div>
+
+                 <!-- Tools -->
+                <div class="skills-card white">
+                    <div class="sKill-icon-wrap">
+                      <i class="fa-solid fa-fill"></i>
+                    </div>
+                    <h3 class="skill-title">TOOLS</h3>
+                    <p>Git, GitHub, Versel, ...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Portfolio Section-->
+  <section class="project-section" id="projects">
+    
+    <div class="container">
+      <a class="project-Portfolio"></a>
+        <h2 class="project-main-title">Project Portfolio</h2>
+        <p class="section-subtitle">
+            A curated list of design prototypes, operational systems, and side-projects.
+        </p>
+        
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+                <div class="project-thumbnail">
+                    <img src="assets/Portfolio1.png" alt="portfolio1">
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <h3 class="project-name">TaskFlow</h3>
+                        <p class="project-summary">
+                            A clean task manager concept for organizing every work.
+                        </p>
+                        <div class="project-footer">
+                            <span class="project-tect">HTML, CSS, JS</span>
+                            <button type="button" class="project-action-btn"
+                                     aria-label="View project details">
+                                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M7 17L17 7"></path>
+                                    <path d="M7 7H17V17"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+                <div class="project-thumbnail">
+                    <img src="assets/Portfolio2.png" alt="portfolio2">
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <h3 class="project-name">Payra</h3>
+                        <p class="project-summary">
+                            Experience the fastest payments ever. Get Started Now.
+                        </p>
+                        <div class="project-footer">
+                            <span class="project-tect">HTML, CSS, JS</span>
+                            <button type="button" class="project-action-btn" aria-label="View project details">
+                                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M7 17L17 7"></path>
+                                    <path d="M7 7H17V17"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+                <div class="project-thumbnail">
+                    <img src="assets/Portfolio3.png" alt="portfolio3">
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <h3 class="project-name">Project Three</h3>
+                        <p class="project-summary">
+                            A clean task manager concept for organizing every work.
+                        </p>
+                        <div class="project-footer">
+                            <span class="project-tect">HTML, CSS, JS</span>
+                            <button type="button" class="project-action-btn" aria-label="View project details">
+                                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M7 17L17 7"></path>
+                                    <path d="M7 7H17V17"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 4 -->
+           <article class="project-card">
+                <div class="project-thumbnail">
+                    <img src="assets/portfolio4.png" alt="portfolio3">
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <h3 class="project-name">Project four</h3>
+                        <p class="project-summary">
+                            A clean task manager concept for organizing every work.
+                        </p>
+                        <div class="project-footer">
+                            <span class="project-tect">HTML, CSS, JS</span>
+                            <button type="button" class="project-action-btn" aria-label="View project details">
+                                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M7 17L17 7"></path>
+                                    <path d="M7 7H17V17"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="project-divider"></div>
+    </div>
+  </section>
+
+  <!-- Services / How I can help? Section -->
+   <section class="services-section" id="services">
+    <div class="container services-grid">
+      <div class="services-left">
+        <div class="services-icon-warp">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+      </div>
+        <h2 class="services-title"> How I can help?</h2>
+      </div>
+
+      <div class="services-list">
+        <div class="services-item">
+          <h3 class="services-item">Web Devolopment</h3>
+          <p>Custom wedsite and front-end experiences built with clean,
+            organized, and scalable code.</p>
+        </div>
+        <div class="services-item">
+          <h3 class="services-item-title">Responsive Interfaces</h3>
+          <p class="service-item-desc">
+            Thoughtfully designed layout that adapt beautifully across 
+            phones, tablets, and desktop.
+          </p>
+        </div>
+        <div class="services-item">
+          <h3 class="services-item-title">Interactive Experiences</h3>
+          <p class="services-item-desc">
+            Micro-interactions, UI behaviors, and smooth detail that make
+            digital products memorable.
+          </p>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- Let's Talk / Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-card-box">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2 class="contain-title">Let's Talk</h2>
+                        <p class="contact-desc">Have a project in minh, an opportunity, or just want to say hi?
+                            Send me a message and let's create something thoughtful together
+                        </p>
+                        <div class="contact-detail">
+                            <div class="contact-item">
+                                <div class="contact-detail-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <span class="detail-label">Email</span>
+                                    <a href="hsok8939@gmail.com" class="detail-value">
+                                        hsok8939@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="contact-detail">
+                            <div class="contact-item">
+                                <div class="contact-detail-icon">
+                                <i class="fa-solid fa-location-crosshairs"></i>
+                                </div>
+                                <div>
+                                    <span class="detail-label">Location</span>
+                                    <span class="detail-value">Takeo, Cambodia</span>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="contact-detail">
+                            <div class="contact-item">
+                                <div class="contact-detail-icon">
+                                <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div>
+                                    <span class="detail-label">Availability</span>
+                                    <span class="detail-value">
+                                        Available for freelance & full-time work
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- form -->
+                     <div class="contact-form-wrap">
+                        <form id="portfoliocontactForm" class="contact-form">
+                            <div class="form-group">
+                                <label class="contactName">YourName</label>
+                                <input
+                                 type="email" 
+                                 id="contactEmail" 
+                                 class="form-control" 
+                                 placeholder="Sokheng" 
+                                 required
+                                 />
+                            </div>
+                            <div class="form-group">
+                                <label class="contactEmail">Your Email</label>
+                                <input
+                                 type="email" 
+                                 id="contactEmail" 
+                                 class="form-control" 
+                                 placeholder="JDvel@example.com" 
+                                 required
+                                 />
+                            </div>
+                            <div class="form-group">
+                                <label class="contactSubject">Subject</label>
+                                <input
+                                 type="text" 
+                                 id="contactEmail" 
+                                 class="form-control" 
+                                 placeholder="Project inquuiry" 
+                                 required
+                                 />
+                            </div>
+                            <div class="form-group">
+                                <label class="contactMessage">Message</label>
+                                <textarea id="contactMessage" class="form-control"
+                                  rows="4" 
+                                  placeholder="Tell me about your project..."
+                                  required>
+                                </textarea>
+
+                                <!-- button -->
+                                 <button type="submit" class="btn-form-submit">Send Message</button>
+                                 <p class="form-status sucses">
+                                    Thank you! Your message has been receipved.
+                                 </p>
+                            </div>
+                        </form>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-inner">
+            <p class="text">&copy; 2026 Khom sokheng. All rights reserved.</p>
+            <p class="text">Build with HTML and CSS and JAVA</p>
+        </div>
+    </footer>
+
+    <!-- Js file -->
+     <script src="main.js"></script>
+</body>
+</html>
